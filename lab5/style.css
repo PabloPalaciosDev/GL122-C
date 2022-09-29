@@ -1,0 +1,103 @@
+/* GLOBALES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+a{
+    color: white
+}
+
+.center {
+    text-align: center;
+}
+.container{
+    display: flex;
+}
+.btn{
+    width: 60px;
+    border-radius: 10px;
+    padding: 7px;
+    background-color: #53a548;
+}
+/* ENCABEZADO */
+header {
+    background-color: #EFF0D1;
+    padding: 20px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    margin: 0;
+}
+header h1{
+    padding-right: 25px;
+    
+}
+header img {
+    width: 100px;
+    border-radius: 50%;
+}
+/* SECCION DE EXPERIENCIA */
+#experiencia {
+    width: 50%;
+    color: white;
+    padding: 100px 20px;
+    background-color: #559cad;
+}
+
+/* SECCION DE FORMACION */
+#formacion{
+    width: 50%;
+    color: white;
+    padding: 100px 20px;
+    background-color: #59a2b5;
+}
+
+/* CONOCIMIENTOS */
+#conocimientos {
+    width: 50%;
+    color: white;
+    padding: 100px 20px;
+    background-color: #9D6381;
+}
+/* CONTACTO */
+#contacto {
+    width: 50%;
+    color: white;
+    padding: 100px 20px;
+    background-color: rgb(179, 110, 145);
+}
+#contacto p {
+    padding-bottom: 20px;
+}
+
+/* PROYECTOS */
+#proyectos-container {
+    background-color: #FF312E;
+    color: white;
+    padding: 100px 20px;
+    
+}
+#proyectos-container h2{
+    font-size: 40px;
+    
+}
+#proyectos div {
+    width: 33.3%;
+    padding: 20px;
+}
+#proyectos div p {
+    margin-bottom: 14px;
+}
+/* FOOTER */
+footer {
+    text-align: center;
+    padding-top: 20px;
+    height: 50px;
+    background-color: rgb(57, 43, 43);
+}
