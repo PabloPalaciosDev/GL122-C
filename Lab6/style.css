@@ -112,8 +112,22 @@ header .header-info  .title h1{
 .articles-contenedor article button:hover{
     background-color: white;
 }
-
-
+.div-contenedor {
+    width: 100%;
+    max-width: 100%;
+    background-size: 100% 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('tecnologia-pic3.jpg');
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    object-fit: cover;
+}
+.div-contenedor p{
+    padding:200px 0;
+    text-align: center;
+    margin-top: 0;
+    font-size: 50px;
+    color: white;
+}
 /* FOOTER */
 footer {
     width: 100%;
