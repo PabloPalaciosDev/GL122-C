@@ -1,0 +1,66 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+button {
+    cursor: pointer;
+}
+/* CLASES REUTILIZABLES */
+
+.center {
+    text-align: center;
+}
+.flex {
+    display: flex;
+}
+.flex-column {
+    flex-direction: column;
+}
+.flex-around {
+    justify-content: space-around;
+}
+.flex-center {
+    justify-content: center;
+}
+.flex-between {
+    justify-content: space-between;
+}
+.align-center {
+    align-items: center;
+}
+
+
+/* NAVBAR */
+header{
+    padding: 10px 10px;
+    background-color: #6DC092;
+    color: white;
+}
+#nav-menu-btn  button{
+    background: none;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+#nav-menu-btn  button p{
+   color: white;
+   padding-left: 10px;
+}
+#nav-menu-btn  button:hover{
+
+    background-color: #77a78d6f;
+ }
+
+/* HERO */
+#hero {
+    background-image: url('./img/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 50vh;
+}
