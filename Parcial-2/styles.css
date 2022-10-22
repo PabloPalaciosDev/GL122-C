@@ -61,8 +61,21 @@ header{
     background-image: url('./img/hero-bg.jpg');
     background-size: cover;
     background-position: center;
-    color:#6DC092;
+    position: relative;
+    color:white;
     height: 50vh;
+}
+#hero::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background: linear-gradient(to right, rgba(77, 106, 159, 0.595), rgba(0, 0, 0, 0.476));
+}
+#hero h1, p {
+    position: relative;
 }
 
 /*funcionalidades*/
@@ -155,7 +168,7 @@ main{
 }
 #cm{
     color:#6DC092;
-    background-image: url(/Parcial2/img/comunidad-bg.jpg);
+    background-image: url(./img/comunidad-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
