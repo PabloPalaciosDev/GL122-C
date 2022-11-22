@@ -1,0 +1,252 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+button {
+    cursor: pointer;
+}
+/* CLASES REUTILIZABLES */
+
+.center {
+    text-align: center;
+}
+.flex {
+    display: flex;
+}
+.flex-column {
+    flex-direction: column;
+}
+.flex-around {
+    justify-content: space-around;
+}
+.flex-center {
+    justify-content: center;
+}
+.flex-between {
+    justify-content: space-between;
+}
+.align-center {
+    align-items: center;
+}
+
+
+/* NAVBAR */
+header{
+    padding: 10px 10px;
+    background-color: #6DC092;
+    color: white;
+}
+#nav-menu-btn  button{
+    background: none;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+#nav-menu-btn  button p{
+   color: white;
+   padding-left: 10px;
+}
+#nav-menu-btn  button:hover{
+
+    background-color: #77a78d6f;
+ }
+
+/* HERO */
+#hero {
+    background-image: url('./img/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color:white;
+    height: 50vh;
+}
+#hero::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background: linear-gradient(to right, rgba(77, 106, 159, 0.595), rgba(0, 0, 0, 0.476));
+}
+#hero h1, p {
+    position: relative;
+}
+
+/*funcionalidades*/
+main{
+    background: linear-gradient(rgba(253, 253, 253, 0.877),rgba(253, 253, 253, 0.877)),url(/Parcial2/img/functions-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.cf{
+    margin: 0 auto;
+    width: 75%;
+    padding-bottom: 50px;
+}
+.cf-title{
+    color: #6DC092;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.cf-title h2{
+    margin-bottom: 25px;
+    font-size: 40px;
+}
+.cf-title p{
+    font-size: 20px;
+}
+.funcionalidades{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,
+        minmax(33.33%,1fr));;
+    justify-items:stretch;
+    row-gap: 25px;
+}
+
+.funcionalidades div{
+    margin: 0 auto;
+    width: 95%;
+    background-color:#6DC092;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 50px;
+    color: white;
+}
+.funcionalidades div h3{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.funcionalidades .information-funct{
+    margin: 0 auto;
+}
+
+.reseñas-contenedor{
+    background-image:linear-gradient(rgba(253, 253, 253, 0.877),rgba(253, 253, 253, 0.877)),url(/Parcial2/img/reseñas-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    margin: 0 auto;
+    text-align: center;
+}
+.reseñas-titulo h3{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: #6DC092;
+    font-size: 35px;
+}
+.reseñas-titulo p{
+    color: #6DC092;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.reseñas div{
+    width: 70%;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 0px;
+}
+.reseñas{
+    padding: 50px;
+}
+.reseñas-info{
+    width: 100%;
+    text-align: end;
+    border-left: 5px #6DC092 solid;
+}
+
+.reseñas-info h4{
+    font-size: 12px;
+    padding-top: 20px;
+}
+#cm{
+    color:#6DC092;
+    background-image: url(./img/comunidad-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25vh;
+}
+
+
+/*footer*/
+.logo{
+    font-weight: bold;
+}
+footer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color:#6DC092;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+    bottom: 0;
+  }
+  footer section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
+    color:white;
+  }
+  footer div{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+  }
+footer .terms h3{
+    padding-bottom: 20px;
+}
+footer .terms a{
+    padding-bottom: 30px;
+}
+  footer div .logo{
+    font-family: var(--titulo);
+    font-size: 20px;
+    color: var(--BG2);
+    text-decoration: none;
+  }
+footer div a{
+    color: white;
+    text-decoration: none;
+}
+footer .networks h3{
+    padding-bottom: 20px;
+
+}
+
+footer .networks a{
+    padding-bottom: 30px;
+}
+
+footer .terms a hr{
+    margin-top: 10px;
+    background-color: white;
+    width: 100%;
+}
+
+footer h5{
+    color: white;
+    padding-top: 20px;
+    font-size: 20px;
+}
+footer .info-ym a{
+    padding-bottom: 20px;
+}
+footer .info-ym p{
+    text-align: justify;
+}
+@media screen and (min-width: 1300px) {
+    #hero{
+        font-size: 35px;
+    }
+    #hero p{
+        font-size: 25px;
+        font-weight: bold;
+    }
+}
