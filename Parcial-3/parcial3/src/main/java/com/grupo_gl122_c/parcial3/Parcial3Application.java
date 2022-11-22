@@ -1,13 +1,13 @@
-package com.parcial3.grupo_gl122_c;
+package com.grupo_gl122_c.parcial3;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GrupoGl122CApplication {
+public class Parcial3Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GrupoGl122CApplication.class, args);
+		SpringApplication.run(Parcial3Application.class, args);
 	}
 
 }
