@@ -19,7 +19,7 @@ public class ReseñasUsuarioDB {
     public List<ReseñasUsuario> obtenReseñasUsuarios(){
         try {
             Statement stnt = _cn.createStatement();
-            String query = "SELECT * FROM DatosReseñaUsuario";
+            String query = "SELECT * FROM Reseñas";
 
             List<ReseñasUsuario> reseñas = new ArrayList<>();
 
@@ -40,6 +40,7 @@ public class ReseñasUsuarioDB {
 
         } catch (SQLException e) {
             System.out.println("Excepcion en ReseñasUsuarioDB");
+            int x = 1;
         }
         return null;
     }

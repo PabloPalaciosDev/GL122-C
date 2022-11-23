@@ -58,7 +58,7 @@ header{
 
 /* HERO */
 #hero {
-    background-image: url('./img/hero-bg.jpg');
+    background-image: url('/Parcial-3/parcial3-front/img/hero-bg.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -80,7 +80,7 @@ header{
 
 /*funcionalidades*/
 main{
-    background: linear-gradient(rgba(253, 253, 253, 0.877),rgba(253, 253, 253, 0.877)),url(/Parcial2/img/functions-bg.jpg);
+    background: linear-gradient(rgba(253, 253, 253, 0.877),rgba(253, 253, 253, 0.877)),url(/Parcial-3/parcial3-front/img/functions-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -128,7 +128,7 @@ main{
 }
 
 .reseñas-contenedor{
-    background-image:linear-gradient(rgba(253, 253, 253, 0.877),rgba(253, 253, 253, 0.877)),url(/Parcial2/img/reseñas-bg.jpg);
+    background-image:linear-gradient(rgba(253, 253, 253, 0.877),rgba(253, 253, 253, 0.877)),url(/Parcial-3/parcial3-front/img/reseñas-bg.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: none;
@@ -168,7 +168,7 @@ main{
 }
 #cm{
     color:#6DC092;
-    background-image: url(./img/comunidad-bg.jpg);
+    background-image: url(/Parcial-3/parcial3-front/img/comunidad-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
